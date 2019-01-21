@@ -1,5 +1,5 @@
 ﻿max-lib-felthiv
- https://github.com/FelThiv/maxlib-felthiv.git
+https://github.com/FelThiv/maxlib-felthiv.git
 
 1 - Énoncé:	
 	Librairie personnelle d'outils pour performances, compositions algorithmiques et explorations
