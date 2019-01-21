@@ -1,0 +1,42 @@
+﻿max-lib-felthiv
+
+1 - Énoncé:	
+	Librairie personnelle d'outils pour performances, compositions algorithmiques et explorations
+	sonores.
+
+2 - Description:
+	-Confection d'un ensemble d'outils de haut et bas niveaux pour la synthèse, la spacialisation,
+	le traitement et le séquençage (plusieurs méthodes si possible).
+	-Des abstractions provenant  de concepts simples (pensons à un effet en particulier...)
+	ainsi que plus complexes (pensons multi-effets).
+	-Des abstractions d'interfaces graphiques pour certains objets.
+	-Une méthodologie concise.
+	-Peut-être un objet externe programmé en C (si le temps le permet). J'aimerais m'orienter		tranquilement vers Juce et me "tramper" les pieds tranquillement dans la matière.
+	-J'ai un intérêt pour la synthèse par modélisation physique, je pourrais inclure quelques
+	trucs dans le genre KarpluStrong, cloche, percussion....("strech goal", autant que l'objet en C)
+
+3 - Analyse des besoins:
+	-Sera scripté à l'aide de Max(v8) et sera probablement compatible avec une partie des 			versions antérieures du logiciel.
+	-Une analyse des options tierces déjà disponibles pour la plateforme(et autre plateformes).
+	-Une analyse de mes besoins en temps que musicien/designeur sonore/explorateur.
+
+4 - Acquisition de connaissances:
+	-Max8: j'utilise cet environnement depuis quelques années déjà, mais plusieurs options 			proposées par la plateforme reste à explorer pour moi, telle que la programmation en 	JavaScript, Java via mxj et mxj~, les objets gen et gen~ et plusieurs autres...
+	-Idées de "design" intéressants pour faire des outils utilisables que je n'arrèterais pas d'utiliser 	après quelque temps.
+	-Et/ou Juce + et/ou info sur la synthèse par modélisation physique.
+
+5 - Modèle:
+	-Objets à fonctionnalités restraintes: réutilisables dans plusieurs cas de figures et aide à bâtir 		des systèmes à partir d'idées simples (lego: oscillateurs à ondes multiples, lfo, etc).
+	
+	-Objets semi-complexes: fonctionnalités définies, mais malléables et utilisables telles quelles 		lors d'un processus de composition ou d'exploration.(playmobile)
+	
+	-Objets d'interfaces d'utilisation: optionnels et n'enlèvent rien aux objets contrôlés si utilisés 		sans, mais servent de "Megablocks" pour la construction d'interfaces plus complexes.
+
+6 - Méthode:
+	-Plusieurs abstractions: tous les morceaux, petit ou gros seront remis sous forme 			d'abstractions séparées. Les plus complexes pourront contenir des plus petites et les interfaces 	devront être utilisables avec l'objet "bpatcher" de Max.
+
+7 - Implémentation:
+	-IDK
+
+8 - Test et maintenance:
+	-IDK
