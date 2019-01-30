@@ -47,3 +47,12 @@ https://github.com/FelThiv/maxlib-felthiv.git
 
 8 - Test et maintenance:
 	-IDK
+
+############## Commentaires ##############
+
+Excellent projet!
+
+Je pense que d'inclure la création d'objets en C et l'apprentissage de Juce déborde un peu du contexte. On va faire une intro au C et un intro à Juce durant la session, ça te permettra de voir si tu veux pousser plus loin dans cette direction dans le futur. Dans le cadre de ce projet, je me concentrerais sur la construction des abstraction, la modularité, la compatibilité (les outils sont adaptés les uns aux autres) et gen~ pour les processus qui demandent plus de ressources en CPU.
+
+10/10
+
