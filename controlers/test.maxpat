@@ -39,36 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 332.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 190.0, 155.0, 91.0, 22.0 ],
-					"text" : "fs.novaLCXL f1"
+					"patching_rect" : [ 190.0, 155.0, 94.0, 22.0 ],
+					"text" : "fs.novaLCXL a3"
 				}
 
 			}
  ],
-		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
-					"source" : [ "obj-7", 1 ]
-				}
-
-			}
- ],
+		"lines" : [  ],
 		"parameters" : 		{
 			"obj-7::obj-40" : [ "s[13]", "s", 0 ],
 			"obj-7::obj-39" : [ "s[12]", "s", 0 ],
@@ -82,11 +64,11 @@
 			"obj-7::obj-51" : [ "s[30]", "s", 0 ],
 			"obj-7::obj-25" : [ "s[7]", "s", 0 ],
 			"obj-7::obj-52" : [ "s[31]", "s", 0 ],
-			"obj-7::obj-24" : [ "s[6]", "s", 0 ],
 			"obj-7::obj-93" : [ "live.button[13]", "live.button", 0 ],
+			"obj-7::obj-24" : [ "s[6]", "s", 0 ],
 			"obj-7::obj-53" : [ "s[32]", "s", 0 ],
-			"obj-7::obj-94" : [ "live.button[14]", "live.button", 0 ],
 			"obj-7::obj-117" : [ "live.button[18]", "live.button", 0 ],
+			"obj-7::obj-94" : [ "live.button[14]", "live.button", 0 ],
 			"obj-7::obj-1" : [ "s[16]", "s", 0 ],
 			"obj-7::obj-95" : [ "live.button[15]", "live.button", 0 ],
 			"obj-7::obj-118" : [ "live.button[19]", "live.button", 0 ],
@@ -99,8 +81,8 @@
 			"obj-7::obj-82" : [ "live.button[5]", "live.button", 0 ],
 			"obj-7::obj-8" : [ "s[20]", "s", 0 ],
 			"obj-7::obj-81" : [ "live.button[4]", "live.button", 0 ],
-			"obj-7::obj-17" : [ "s[22]", "s", 0 ],
 			"obj-7::obj-9" : [ "s[21]", "s", 0 ],
+			"obj-7::obj-17" : [ "s[22]", "s", 0 ],
 			"obj-7::obj-80" : [ "live.button[3]", "live.button", 0 ],
 			"obj-7::obj-43" : [ "s[23]", "s", 0 ],
 			"obj-7::obj-42" : [ "s[15]", "s", 0 ],
@@ -118,13 +100,13 @@
 			"obj-7::obj-89" : [ "live.button[11]", "live.button", 0 ],
 			"obj-7::obj-128" : [ "live.button[26]", "live.button", 0 ],
 			"obj-7::obj-20" : [ "s[2]", "s", 0 ],
-			"obj-7::obj-125" : [ "live.button[16]", "live.button", 0 ],
 			"obj-7::obj-90" : [ "live.button[12]", "live.button", 0 ],
+			"obj-7::obj-125" : [ "live.button[16]", "live.button", 0 ],
 			"obj-7::obj-76" : [ "live.button", "live.button", 0 ],
 			"obj-7::obj-19" : [ "s[1]", "s", 0 ],
-			"obj-7::obj-127" : [ "live.button[25]", "live.button", 0 ],
-			"obj-7::obj-79" : [ "live.button[2]", "live.button", 0 ],
 			"obj-7::obj-5" : [ "s[17]", "s", 0 ],
+			"obj-7::obj-79" : [ "live.button[2]", "live.button", 0 ],
+			"obj-7::obj-127" : [ "live.button[25]", "live.button", 0 ],
 			"obj-7::obj-78" : [ "live.button[1]", "live.button", 0 ],
 			"parameterbanks" : 			{
 
