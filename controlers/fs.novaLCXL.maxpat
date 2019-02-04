@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 315.0, 95.0, 680.0, 605.0 ],
+		"rect" : [ 680.0, 130.0, 680.0, 605.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "controls out - use route after",
 					"id" : "obj-45",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -65,7 +65,7 @@
 				"box" : 				{
 					"comment" : "controls out - use route after",
 					"id" : "obj-44",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2360,7 +2360,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 557.0, -1292.0, 1528.0, 629.0 ],
+						"rect" : [ 468.0, -1104.0, 1528.0, 629.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3265,7 +3265,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 48.0, 91.0, 95.0, 31.0 ],
-									"text" : "a3 15",
+									"text" : "f3 0",
 									"textjustification" : 1
 								}
 
@@ -4509,7 +4509,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-126",
@@ -9335,6 +9334,71 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-40" : [ "s[13]", "s", 0 ],
+			"obj-39" : [ "s[12]", "s", 0 ],
+			"obj-38" : [ "s[11]", "s", 0 ],
+			"obj-37" : [ "s[10]", "s", 0 ],
+			"obj-49" : [ "s[28]", "s", 0 ],
+			"obj-32" : [ "s[9]", "s", 0 ],
+			"obj-50" : [ "s[29]", "s", 0 ],
+			"obj-119" : [ "live.button[20]", "live.button", 0 ],
+			"obj-26" : [ "s[8]", "s", 0 ],
+			"obj-51" : [ "s[30]", "s", 0 ],
+			"obj-25" : [ "s[7]", "s", 0 ],
+			"obj-52" : [ "s[31]", "s", 0 ],
+			"obj-24" : [ "s[6]", "s", 0 ],
+			"obj-93" : [ "live.button[13]", "live.button", 0 ],
+			"obj-53" : [ "s[32]", "s", 0 ],
+			"obj-94" : [ "live.button[14]", "live.button", 0 ],
+			"obj-117" : [ "live.button[18]", "live.button", 0 ],
+			"obj-1" : [ "s[16]", "s", 0 ],
+			"obj-118" : [ "live.button[19]", "live.button", 0 ],
+			"obj-95" : [ "live.button[15]", "live.button", 0 ],
+			"obj-85" : [ "live.button[7]", "live.button", 0 ],
+			"obj-18" : [ "s", "s", 0 ],
+			"obj-126" : [ "live.button[24]", "live.button", 0 ],
+			"obj-6" : [ "s[18]", "s", 0 ],
+			"obj-83" : [ "live.button[6]", "live.button", 0 ],
+			"obj-7" : [ "s[19]", "s", 0 ],
+			"obj-82" : [ "live.button[5]", "live.button", 0 ],
+			"obj-8" : [ "s[20]", "s", 0 ],
+			"obj-81" : [ "live.button[4]", "live.button", 0 ],
+			"obj-9" : [ "s[21]", "s", 0 ],
+			"obj-17" : [ "s[22]", "s", 0 ],
+			"obj-80" : [ "live.button[3]", "live.button", 0 ],
+			"obj-43" : [ "s[23]", "s", 0 ],
+			"obj-42" : [ "s[15]", "s", 0 ],
+			"obj-41" : [ "s[14]", "s", 0 ],
+			"obj-46" : [ "s[25]", "s", 0 ],
+			"obj-47" : [ "s[26]", "s", 0 ],
+			"obj-86" : [ "live.button[8]", "live.button", 0 ],
+			"obj-48" : [ "s[27]", "s", 0 ],
+			"obj-23" : [ "s[5]", "s", 0 ],
+			"obj-87" : [ "live.button[9]", "live.button", 0 ],
+			"obj-22" : [ "s[4]", "s", 0 ],
+			"obj-120" : [ "live.button[21]", "live.button", 0 ],
+			"obj-88" : [ "live.button[10]", "live.button", 0 ],
+			"obj-21" : [ "s[3]", "s", 0 ],
+			"obj-89" : [ "live.button[11]", "live.button", 0 ],
+			"obj-20" : [ "s[2]", "s", 0 ],
+			"obj-128" : [ "live.button[26]", "live.button", 0 ],
+			"obj-125" : [ "live.button[16]", "live.button", 0 ],
+			"obj-90" : [ "live.button[12]", "live.button", 0 ],
+			"obj-19" : [ "s[1]", "s", 0 ],
+			"obj-76" : [ "live.button", "live.button", 0 ],
+			"obj-79" : [ "live.button[2]", "live.button", 0 ],
+			"obj-5" : [ "s[17]", "s", 0 ],
+			"obj-127" : [ "live.button[25]", "live.button", 0 ],
+			"obj-78" : [ "live.button[1]", "live.button", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"default_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 	}
