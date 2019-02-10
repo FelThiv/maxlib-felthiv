@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1661,7 +1661,7 @@
 					"patching_rect" : [ 129.5556640625, 316.0, 144.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 93.321586608886719, 269.9854736328125, 74.740890502929688, 22.0 ],
-					"text" : "1. 0.",
+					"text" : "0.999878 0.",
 					"textjustification" : 1
 				}
 
@@ -2301,7 +2301,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 740.5, 415.0, 74.0, 22.0 ],
-									"text" : "0.",
+									"text" : "0.000061",
 									"textjustification" : 1
 								}
 
@@ -2427,7 +2427,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 133.5, 247.0, 74.0, 22.0 ],
-									"text" : "1. 0.",
+									"text" : "0.999878 0.",
 									"textjustification" : 1
 								}
 
@@ -4047,7 +4047,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 319.0, 85.0, 1346.0, 480.0 ],
+										"rect" : [ 60.0, 85.0, 1346.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5644,17 +5644,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-35",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 71.5, 253.0, 60.0, 22.0 ],
-									"text" : "print XB1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-2",
@@ -5678,7 +5667,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 172.5, 253.0, 26.0, 38.0 ],
-									"text" : "11 22"
+									"text" : "4 4"
 								}
 
 							}
@@ -5699,7 +5688,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-28",
-									"items" : [ "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple IR", ",", "Apple Mikey HID Driver" ],
+									"items" : [ "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple IR", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Mikey HID Driver" ],
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
@@ -6082,14 +6071,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
-									"order" : 2,
-									"source" : [ "obj-30", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
 									"source" : [ "obj-31", 0 ]
 								}
@@ -6367,6 +6348,27 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-91" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-133::obj-127" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-133::obj-128" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-127" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-128" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-133::obj-129" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-133::obj-90" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-129" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-130" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-90" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-133::obj-130" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-133::obj-91" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
