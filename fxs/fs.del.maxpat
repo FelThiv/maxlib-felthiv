@@ -52,30 +52,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-95",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 372.0, 350.0, 29.5, 22.0 ],
-					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-92",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 17.018527984619141, 219.432952880859375, 61.0, 22.0 ],
-					"text" : "sel freeze"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -120,8 +96,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.03704833984375, 94.444442749023438, 479.0, 24.0 ],
-					"text" : "Simple mono delay. Freeze with the message \"freeze\" to first inlet."
+					"patching_rect" : [ 42.03704833984375, 94.444442749023438, 149.0, 24.0 ],
+					"text" : "Simple mono delay."
 				}
 
 			}
@@ -220,8 +196,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.892974853515625, 219.432952880859375, 73.0, 22.0 ],
-					"text" : "clip 0. 0.999"
+					"patching_rect" : [ 288.892974853515625, 219.432952880859375, 50.0, 22.0 ],
+					"text" : "clip 0. 1"
 				}
 
 			}
@@ -585,24 +561,6 @@
 					"destination" : [ "obj-80", 0 ],
 					"midpoints" : [ 797.42816162109375, 209.347038269042969, 608.0218505859375, 209.347038269042969 ],
 					"source" : [ "obj-90", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.403921568627451, 0.109803921568627, 0.701960784313725, 1.0 ],
-					"destination" : [ "obj-95", 0 ],
-					"midpoints" : [ 26.518527984619141, 310.716476440429688, 381.5, 310.716476440429688 ],
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.403921568627451, 0.109803921568627, 0.701960784313725, 1.0 ],
-					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 381.5, 399.5, 271.972183227539063, 399.5 ],
-					"source" : [ "obj-95", 0 ]
 				}
 
 			}
