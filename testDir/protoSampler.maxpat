@@ -167,7 +167,7 @@
 						"count" : 4,
 						"data" : [ 							{
 								"key" : 1,
-								"value" : [ "tres", "beau" ]
+								"value" : [ "path", "C:/Program Files/Cycling '74/Max 8/resources/media/msp/anton.aif" ]
 							}
 , 							{
 								"key" : 3,
