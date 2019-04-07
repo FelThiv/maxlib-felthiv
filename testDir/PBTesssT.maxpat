@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 935.0, 622.0 ],
+		"rect" : [ 59.0, 107.0, 853.0, 587.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,41 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 624.0, 64.0, 20.0, 140.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 71.0, 60.0, 55.0, 22.0 ],
+					"text" : "getcount"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 87.0, 219.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "message",
@@ -350,13 +385,13 @@
 					"patching_rect" : [ 33.0, 453.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "out",
 							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "out"
+							"parameter_shortname" : "out",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -641,7 +676,23 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -932,6 +983,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "PBTesssT.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "test 1[1].maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "polybufferTEST.maxpat",
 				"bootpath" : "~/Documents/0_WORKPLACE/max-lib/maxlib-felthiv/testDir",
 				"patcherrelativepath" : ".",
@@ -939,7 +1004,79 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"snapshot" : 		{
+			"filetype" : "C74Snapshot",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
+			"subtype" : "Undefined",
+			"embed" : 1,
+			"snapshot" : 			{
+				"valuedictionary" : 				{
+					"parameter_values" : 					{
+						"out" : 0.0
+					}
+
+				}
+
+			}
+,
+			"snapshotlist" : 			{
+				"current_snapshot" : 1,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "test 1",
+						"origin" : "PBTesssT",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "PBTesssT",
+							"filename" : "PBTesssT.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "d4f1031b7bc6f984955104cacff16675"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "test 1[1]",
+						"origin" : "PBTesssT",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"out" : 0.0
+								}
+
+							}
+
+						}
+,
+						"fileref" : 						{
+							"name" : "test 1[1]",
+							"filename" : "test 1[1].maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "bd91b1da5dc8b792fe8d379c51f1c9b7"
+						}
+
+					}
+ ]
+			}
+
+		}
+
 	}
 
 }
