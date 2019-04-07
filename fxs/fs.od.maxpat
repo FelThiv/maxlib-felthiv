@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 606.0, -1113.0, 656.0, 726.0 ],
+		"rect" : [ 606.0, -1113.0, 848.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 674.0, 282.0, 78.0, 22.0 ],
+					"text" : "route filterOn"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : 18.0,
 					"id" : "obj-83",
@@ -46,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.83331298828125, 29.5, 246.0, 27.0 ],
-					"presentation_linecount" : 5,
 					"text" : "[fs.od disto freq res filterType]",
 					"textcolor" : [ 0.996078431606293, 0.996078431606293, 0.996078431606293, 1.0 ]
 				}
@@ -83,8 +94,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 477.0, 254.0, 152.0, 22.0 ],
-					"text" : "patcherargs 0.5 250 0.75 1"
+					"patching_rect" : [ 477.0, 254.0, 216.0, 22.0 ],
+					"text" : "patcherargs 0.5 250 0.75 1 @filterOn 1"
 				}
 
 			}
@@ -108,7 +119,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 335.83331298828125, 149.5, 38.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "filter Q",
 					"textjustification" : 1
 				}
@@ -122,7 +132,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.08331298828125, 149.5, 38.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "filter freq",
 					"textjustification" : 1
 				}
@@ -135,8 +144,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.0, 136.0, 49.0, 47.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 102.0, 136.0, 52.0, 47.0 ],
 					"text" : "disto amount (0. 1.)",
 					"textjustification" : 1
 				}
@@ -158,7 +166,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-68",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -168,9 +176,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "disto amount (0. 1.)",
 					"id" : "obj-66",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -181,9 +189,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "filter freq",
 					"id" : "obj-63",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -194,9 +202,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "filter Q",
 					"id" : "obj-60",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -207,13 +215,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "sig in",
 					"id" : "obj-59",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 39.83331298828125, 195.0, 30.0, 30.0 ]
 				}
 
@@ -417,6 +425,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-58", 0 ],
+					"midpoints" : [ 683.5, 452.25, 129.5, 452.25 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 5 ],
 					"source" : [ "obj-48", 3 ]
 				}
@@ -528,6 +545,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-79", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-79", 0 ]
 				}
@@ -576,16 +600,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
