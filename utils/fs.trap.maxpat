@@ -91,7 +91,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "time (ms)",
 					"id" : "obj-49",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -198,7 +198,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "input signal",
 					"id" : "obj-30",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -223,7 +223,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "slope",
 					"id" : "obj-26",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -236,7 +236,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "trigger (bang)",
 					"id" : "obj-23",
 					"index" : 0,
 					"maxclass" : "inlet",
