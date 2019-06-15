@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 220.0, 821.0, 530.0 ],
+		"rect" : [ 152.0, 176.0, 850.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 131.0, 68.0, 33.0 ],
-					"text" : "bang + {decay $}1"
+					"text" : "bang + {decay $1}"
 				}
 
 			}
@@ -77,7 +77,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -136,9 +136,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "bang + {decay $1}",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -243,7 +243,7 @@
 				"box" : 				{
 					"comment" : "filter res",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -256,7 +256,7 @@
 				"box" : 				{
 					"comment" : "filter freq",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -269,7 +269,7 @@
 				"box" : 				{
 					"comment" : "filter: 1 2 3 4 5 = thru low high band notch",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -282,7 +282,7 @@
 				"box" : 				{
 					"comment" : "rand~ band",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -295,7 +295,7 @@
 				"box" : 				{
 					"comment" : "1 2 3 = white pink rand~",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -503,16 +503,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "fs.noise.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/max-lib/maxlib-felthiv/generators",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
