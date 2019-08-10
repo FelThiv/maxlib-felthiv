@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,9 +39,9 @@
 		"subpatcher_template" : "audio template1",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "waveform",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -85,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 60.0, 290.0, 42.0 ],
+					"patching_rect" : [ 21.0, 60.0, 290.0, 43.0 ],
 					"text" : "Simple amplification mudulator with the choice of 3 waveforms: sin, recand saw"
 				}
 
@@ -97,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 11.0, 62.0, 33.0 ],
+					"patching_rect" : [ 21.0, 11.0, 62.0, 34.0 ],
 					"text" : "ft.am"
 				}
 
@@ -171,7 +171,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-60",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -186,7 +186,7 @@
 					"comment" : "am freq",
 					"hint" : "am freq",
 					"id" : "obj-59",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -267,11 +267,11 @@
 					"comment" : "signal in",
 					"hint" : "singal in",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 21.0, 133.0, 30.0, 30.0 ],
 					"style" : "nihil"
 				}
@@ -424,22 +424,12 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "fs.lfo.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/max-lib/maxlib-felthiv/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "nihil",
 				"default" : 				{
 					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"textjustification" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -451,6 +441,7 @@
 						"autogradient" : 0.0
 					}
 ,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ]
 				}

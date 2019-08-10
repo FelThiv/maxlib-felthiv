@@ -455,15 +455,17 @@
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
-						"formant" : [ 0.999017460278221 ],
+						"formant" : [ 0.5 ],
 						"formantcorrection" : 0,
-						"loopend" : [ 3187.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
+						"loopend" : [ 458.0, "ms" ],
+						"loopstart" : [ 94.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 119.999999999999801,
+						"originaltempo" : 119.999999999999815,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
+						"pitchshift" : [ 3.0 ],
+						"pitchshiftcent" : [ 1902 ],
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
 					}
