@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -109,10 +109,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 99.0, 25.0, 96.0 ],
+					"patching_rect" : [ 194.0, 99.0, 25.0, 98.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 58.0, 3.0, 25.0, 96.0 ],
+					"presentation_rect" : [ 58.0, 3.0, 25.0, 98.0 ],
 					"text" : "A\nD\nS\nR",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -120,136 +120,148 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
-					"bgcolor" : [ 0.423529411764706, 0.423529411764706, 0.423529411764706, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"format" : 6,
+					"activebgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"appearance" : 2,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
+					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"maxclass" : "flonum",
-					"maximum" : 20000.0,
-					"minimum" : 0.0,
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 139.0, 171.0, 51.0, 22.0 ],
+					"patching_rect" : [ 139.0, 171.0, 53.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 75.0, 51.0, 22.0 ],
+					"presentation_rect" : [ 3.0, 76.714979757085004, 53.0, 18.0 ],
+					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[3]",
-							"parameter_mmax" : 20000.0,
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 2
+							"parameter_unitstyle" : 2,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "number[3]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1000.0,
+							"parameter_steps" : 10000,
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
 ,
-					"triangle" : 0,
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "number[3]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
-					"bgcolor" : [ 0.423529411764706, 0.423529411764706, 0.423529411764706, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"format" : 6,
+					"activebgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"appearance" : 2,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
+					"fontsize" : 12.0,
 					"id" : "obj-23",
-					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 139.0, 147.0, 51.0, 22.0 ],
+					"patching_rect" : [ 139.0, 147.0, 53.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 51.0, 51.0, 22.0 ],
+					"presentation_rect" : [ 3.0, 54.143319838056676, 53.0, 18.0 ],
+					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[2]",
-							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "number[2]",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
+							"parameter_unitstyle" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "number[2]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1.0,
+							"parameter_steps" : 41,
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
 ,
-					"triangle" : 0,
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "number[2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
-					"bgcolor" : [ 0.423529411764706, 0.423529411764706, 0.423529411764706, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"format" : 6,
+					"activebgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"appearance" : 2,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
+					"fontsize" : 12.0,
 					"id" : "obj-21",
-					"maxclass" : "flonum",
-					"maximum" : 20000.0,
-					"minimum" : 0.0,
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 139.0, 123.0, 51.0, 22.0 ],
+					"patching_rect" : [ 139.0, 123.0, 53.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 27.0, 51.0, 22.0 ],
+					"presentation_rect" : [ 3.0, 31.571659919028338, 53.0, 18.0 ],
+					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[1]",
-							"parameter_mmax" : 20000.0,
 							"parameter_shortname" : "number[1]",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 2
+							"parameter_unitstyle" : 2,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "number[1]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1000.0,
+							"parameter_steps" : 10000,
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
 ,
-					"triangle" : 0,
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "number[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
-					"bgcolor" : [ 0.423529411764706, 0.423529411764706, 0.423529411764706, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"format" : 6,
+					"activebgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"appearance" : 2,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
+					"fontsize" : 12.0,
 					"id" : "obj-19",
-					"maxclass" : "flonum",
-					"maximum" : 20000.0,
-					"minimum" : 0.0,
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 139.0, 99.0, 51.0, 22.0 ],
+					"patching_rect" : [ 139.0, 99.0, 53.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 51.0, 22.0 ],
+					"presentation_rect" : [ 3.0, 9.0, 53.0, 18.0 ],
+					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number",
-							"parameter_mmax" : 20000.0,
 							"parameter_shortname" : "number",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 2
+							"parameter_unitstyle" : 2,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "number",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 1000.0,
+							"parameter_steps" : 10000,
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
 ,
-					"triangle" : 0,
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "number"
 				}
 
@@ -320,9 +332,9 @@
  ],
 		"parameters" : 		{
 			"obj-19" : [ "number", "number", 0 ],
-			"obj-21" : [ "number[1]", "number[1]", 0 ],
 			"obj-23" : [ "number[2]", "number[2]", 0 ],
 			"obj-25" : [ "number[3]", "number[3]", 0 ],
+			"obj-21" : [ "number[1]", "number[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
