@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 207.0, 53.0, 35.0 ],
+					"patching_rect" : [ 62.0, 207.0, 53.0, 36.0 ],
 					"text" : "clip 0. 20000."
 				}
 
@@ -69,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 53.0, 150.0, 47.0 ],
+					"patching_rect" : [ 24.0, 53.0, 150.0, 48.0 ],
 					"text" : "abstraction wrapping fs.oscil and making it usable with bpatchers",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -203,33 +203,36 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontface" : 1,
-					"format" : 6,
+					"activebgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"appearance" : 2,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"focusbordercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
+					"fontsize" : 16.0,
 					"id" : "obj-11",
-					"maxclass" : "flonum",
-					"maximum" : 20000.0,
-					"minimum" : 0.0,
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 24.0, 400.07317066192627, 69.0, 22.0 ],
+					"patching_rect" : [ 24.0, 400.07317066192627, 69.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 3.0, 69.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 3.0, 69.0, 23.0 ],
+					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "number",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
+							"parameter_linknames" : 1,
+							"parameter_exponent" : 3.333333,
 							"parameter_longname" : "number",
-							"parameter_mmax" : 20000.0
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 20000.0,
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
 ,
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"triangle" : 0,
 					"varname" : "number"
 				}
 
