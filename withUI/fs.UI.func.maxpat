@@ -76,13 +76,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-37",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 974.0, 336.0, 50.0, 36.0 ],
-					"text" : "10000.016667"
+					"patching_rect" : [ 974.0, 336.0, 50.0, 22.0 ],
+					"text" : "0."
 				}
 
 			}
@@ -446,14 +445,14 @@
 					"presentation_rect" : [ 7.728758335113525, 31.507887177467353, 512.803921818733215, 13.31706976890564 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 10000.016666694444211,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "gain[4]"
+							"parameter_longname" : "gain[4]",
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -497,7 +496,6 @@
 					"id" : "obj-172",
 					"knobshape" : 5,
 					"maxclass" : "slider",
-					"min" : -300.000500000780448,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -507,19 +505,19 @@
 					"presentation_rect" : [ 527.153594791889191, 64.343474857807166, 12.024389982223511, 133.037037789821625 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 600.001000001613761,
+							"parameter_mmax" : 163.000271667119449,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "gain[3]"
+							"parameter_longname" : "gain[3]",
+							"parameter_initial_enable" : 1
 						}
 
 					}
 ,
-					"size" : 600.001000001613761,
+					"size" : 163.000271667119449,
 					"style" : "nihil",
 					"thickness" : 23.0,
 					"varname" : "gain[3]"
@@ -638,7 +636,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 755.522608426898387, 158.833407251754863, 0, 8622.463261710900042, -152.617481345573395, 0 ],
+					"addpoints" : [ 755.522608426898387, 124.649998153947294, 0, 8622.463261710900042, 40.039089791119821, 0 ],
 					"clicksustain" : 0,
 					"domain" : 10000.0166015625,
 					"grid" : 3,
@@ -654,7 +652,7 @@
 					"patching_rect" : [ 37.15679657459259, 345.178570806980133, 523.0, 156.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.153594791889191, 45.824956946372993, 523.0, 156.0 ],
-					"range" : [ -300.00048828125, 300.00048828125 ],
+					"range" : [ 0.0, 163.000274658203125 ],
 					"style" : "nihil"
 				}
 
@@ -1089,13 +1087,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17" : [ "domain[1]", "live.numbox", 0 ],
 			"obj-18" : [ "domain[2]", "live.numbox", 0 ],
-			"obj-4" : [ "domain", "live.numbox", 0 ],
 			"obj-160" : [ "domain[3]", "live.numbox", 0 ],
 			"obj-6" : [ "gain[4]", "gain", 0 ],
+			"obj-4" : [ "domain", "live.numbox", 0 ],
 			"obj-172" : [ "gain[3]", "gain", 0 ],
 			"obj-158" : [ "domain[4]", "live.numbox", 0 ],
-			"obj-17" : [ "domain[1]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1108,6 +1106,10 @@
 		"styles" : [ 			{
 				"name" : "nihil",
 				"default" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : [ 0 ],
+					"textcolor_inverse" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1118,13 +1120,9 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontsize" : [ 12.0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"textjustification" : [ 0 ],
-					"textcolor_inverse" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontface" : [ 1 ]
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
