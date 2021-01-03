@@ -204,7 +204,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 330.0, 192.0, 567.0, 283.0 ],
+						"rect" : [ 409.0, 214.0, 579.0, 294.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -232,6 +232,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1449,9 +1450,36 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"midpoints" : [ 729.5, 42.0, 789.0, 42.0, 789.0, 75.0, 811.0, 75.0 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"midpoints" : [ 729.5, 42.0, 705.0, 42.0, 705.0, 138.0, 729.5, 138.0 ],
+									"order" : 4,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"midpoints" : [ 729.5, 42.0, 705.0, 42.0, 705.0, 168.0, 729.5, 168.0 ],
+									"order" : 3,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"midpoints" : [ 729.5, 42.0, 729.5, 42.0 ],
-									"order" : 2,
+									"order" : 7,
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -1460,7 +1488,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"midpoints" : [ 729.5, 42.0, 801.5, 42.0 ],
-									"order" : 0,
+									"order" : 2,
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -1469,7 +1497,25 @@
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"midpoints" : [ 729.5, 42.0, 717.0, 42.0, 717.0, 72.0, 729.5, 72.0 ],
-									"order" : 1,
+									"order" : 6,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"midpoints" : [ 729.5, 42.0, 789.0, 42.0, 789.0, 75.0, 822.5, 75.0 ],
+									"order" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"midpoints" : [ 729.5, 42.0, 705.0, 42.0, 705.0, 105.0, 729.5, 105.0 ],
+									"order" : 5,
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -1997,13 +2043,11 @@
 							}
  ],
 						"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-						"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bgcolor" : [ 0.517647058823529, 0.517647058823529, 0.517647058823529, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 119.5, 199.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
