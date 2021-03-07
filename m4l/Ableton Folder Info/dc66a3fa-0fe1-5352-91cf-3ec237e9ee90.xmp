@@ -72,11 +72,20 @@
                      </rdf:Bag>
                   </ablFR:colors>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <ablFR:filePath>FS_LocCue.amxd</ablFR:filePath>
+                  <ablFR:colors>
+                     <rdf:Bag>
+                        <rdf:li>3</rdf:li>
+                        <rdf:li>5</rdf:li>
+                     </rdf:Bag>
+                  </ablFR:colors>
+               </rdf:li>
             </rdf:Bag>
          </ablFR:items>
-         <xmp:CreatorTool>Updated by Ableton Index 10.1.30</xmp:CreatorTool>
+         <xmp:CreatorTool>Updated by Ableton Index 11.0</xmp:CreatorTool>
          <xmp:CreateDate>2021-01-03T00:34:05-05:00</xmp:CreateDate>
-         <xmp:MetadataDate>2021-02-05T01:01:01-05:00</xmp:MetadataDate>
+         <xmp:MetadataDate>2021-03-07T10:40:04-05:00</xmp:MetadataDate>
       </rdf:Description>
    </rdf:RDF>
 </x:xmpmeta>
