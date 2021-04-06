@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -972.0, -1075.0, 1980.0, 1011.0 ],
+		"rect" : [ -891.0, -1011.0, 559.0, 375.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.5, 693.0, 50.0, 22.0 ],
+					"patching_rect" : [ 458.5, 266.0, 50.0, 22.0 ],
 					"text" : "0"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.5, 685.0, 50.0, 22.0 ],
+					"patching_rect" : [ 433.5, 244.0, 50.0, 22.0 ],
 					"text" : "0"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 237.5, 584.0, 69.0, 22.0 ],
+					"patching_rect" : [ 464.5, 174.0, 69.0, 22.0 ],
 					"text" : "route 48 50"
 				}
 
@@ -82,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.5, 385.0, 50.0, 50.0 ],
+					"patching_rect" : [ 323.5, 216.0, 50.0, 50.0 ],
 					"text" : "midievent 128 53 33"
 				}
 
@@ -94,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.5, 399.0, 50.0, 22.0 ],
+					"patching_rect" : [ 110.428571428571445, 216.0, 32.0, 22.0 ],
 					"text" : "29 0"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 118.5, 447.0, 50.0, 22.0 ],
+					"patching_rect" : [ 41.5, 208.0, 41.0, 22.0 ],
 					"text" : "53 0"
 				}
 
@@ -115,11 +115,11 @@
 				"box" : 				{
 					"comment" : "notes to grid index",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.428571428571445, 371.0, 30.0, 30.0 ]
+					"patching_rect" : [ 180.428571428571445, 306.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -129,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 106.0, 232.0, 20.0 ],
+					"patching_rect" : [ 31.0, 87.0, 232.0, 20.0 ],
 					"text" : "Get midi data from the Arturia MicroFreak."
 				}
 
@@ -141,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 43.0, 103.0, 41.0 ],
+					"patching_rect" : [ 31.0, 24.0, 103.0, 41.0 ],
 					"text" : "fs.AMF"
 				}
 
@@ -150,11 +150,11 @@
 				"box" : 				{
 					"comment" : "midi channel",
 					"id" : "obj-78",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.285714285714278, 325.0, 30.0, 30.0 ]
+					"patching_rect" : [ 308.285714285714278, 306.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -162,11 +162,11 @@
 				"box" : 				{
 					"comment" : "buttons toggles (0, 1)",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.428571428571445, 371.0, 30.0, 30.0 ]
+					"patching_rect" : [ 123.428571428571445, 306.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -174,11 +174,11 @@
 				"box" : 				{
 					"comment" : "note + aftertouch",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.214285714285722, 371.0, 30.0, 30.0 ]
+					"patching_rect" : [ 77.214285714285722, 306.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -186,11 +186,11 @@
 				"box" : 				{
 					"comment" : "pitch + vel",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 371.0, 30.0, 30.0 ]
+					"patching_rect" : [ 31.0, 306.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -202,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 54.0, 158.0, 150.0, 22.0 ],
+					"patching_rect" : [ 31.0, 139.0, 150.0, 22.0 ],
 					"text" : "midiin \"Arturia MicroFreak\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -215,7 +215,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 54.0, 193.0, 342.5, 22.0 ],
+					"patching_rect" : [ 31.0, 174.0, 342.5, 22.0 ],
 					"text" : "midiparse"
 				}
 
@@ -269,6 +269,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
+					"midpoints" : [ 86.714285714285722, 197.0, 97.0, 197.0, 97.0, 278.0, 418.0, 278.0, 418.0, 170.0, 474.0, 170.0 ],
 					"order" : 0,
 					"source" : [ "obj-25", 1 ]
 				}
@@ -284,6 +285,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 1 ],
+					"midpoints" : [ 474.0, 197.0, 474.0, 197.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -291,13 +293,12 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
+					"midpoints" : [ 499.0, 197.0, 499.0, 197.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
