@@ -3,16 +3,16 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -730.0, -849.0, 882.0, 762.0 ],
+		"rect" : [ -730.0, -850.0, 882.0, 762.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -69,7 +69,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 737.0, 862.0, 17.0 ],
-					"prototypename" : "M4L.live.line.dark.H"
+					"prototypename" : "M4L.live.line.dark.H",
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -82,7 +89,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 3.0, 862.0, 17.0 ],
-					"prototypename" : "M4L.live.line.dark.H"
+					"prototypename" : "M4L.live.line.dark.H",
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -187,12 +201,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-62",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 12.0, 521.0, 621.0, 196.0 ],
+					"patching_rect" : [ 12.0, 521.0, 511.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -207,7 +222,7 @@
 						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "FS_MicroFreak.amxd",
-						"patchername_fallback" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/m4l/FS_MicroFreak.amxd"
+						"patchername_fallback" : "D:/0_projects/_tools/gitProjects/maxlib-felthiv/m4l/FS_MicroFreak.amxd"
 					}
 ,
 					"snapshot" : 					{
@@ -221,7 +236,7 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"name" : "FS_MicroFreak.amxd",
-							"origname" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/m4l/FS_MicroFreak.amxd",
+							"origname" : "D:/0_projects/_tools/gitProjects/maxlib-felthiv/m4l/FS_MicroFreak.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"Amount" : 0.0,
@@ -264,10 +279,10 @@
 									"glide" : 0.0,
 									"glide[1]" : 0.0,
 									"live.button" : 0.0,
-									"live.numbox" : 35.0,
+									"live.numbox" : 0.0,
 									"live.numbox[1]" : 0.0,
 									"more" : 0.0,
-									"preset" : 35.0,
+									"preset" : 0.0,
 									"res" : 0.0,
 									"res[1]" : 0.0
 								}
@@ -286,10 +301,10 @@
 									"origin" : "FS_MicroFreak.amxd",
 									"type" : "amxd",
 									"subtype" : "Undefined",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"name" : "FS_MicroFreak.amxd",
-										"origname" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/m4l/FS_MicroFreak.amxd",
+										"origname" : "D:/0_projects/_tools/gitProjects/maxlib-felthiv/m4l/FS_MicroFreak.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
 												"Amount" : 0.0,
@@ -332,10 +347,10 @@
 												"glide" : 0.0,
 												"glide[1]" : 0.0,
 												"live.button" : 0.0,
-												"live.numbox" : 35.0,
+												"live.numbox" : 0.0,
 												"live.numbox[1]" : 0.0,
 												"more" : 0.0,
-												"preset" : 35.0,
+												"preset" : 0.0,
 												"res" : 0.0,
 												"res[1]" : 0.0
 											}
@@ -349,7 +364,7 @@
 										"filename" : "FS_MicroFreak.amxd.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "7f00ca319baff573c5295bac52adfc7e"
+										"snapshotfileid" : "ea7828e466af727fae282340bc0d8ee3"
 									}
 
 								}
@@ -373,7 +388,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 478.0, 862.0, 17.0 ],
-					"prototypename" : "M4L.live.line.dark.H"
+					"prototypename" : "M4L.live.line.dark.H",
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -421,7 +443,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.0, 168.5, 400.0, 25.0 ],
-					"presentation_linecount" : 4,
 					"style" : "nihil",
 					"text" : "Control available paremeters via cc implementation",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -437,7 +458,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.0, 325.5, 224.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Parameters names and category"
 				}
 
@@ -480,7 +500,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 777.0, 321.0, 13.0, 25.0 ],
-					"prototypename" : "M4L.live.line.dark.H"
+					"prototypename" : "M4L.live.line.dark.H",
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -493,7 +520,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.0, 138.0, 664.0, 35.0 ],
-					"prototypename" : "M4L.live.line.dark.H"
+					"prototypename" : "M4L.live.line.dark.H",
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -506,7 +540,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 266.0, 198.0, 28.0 ],
-					"prototypename" : "M4L.live.line.dark.H"
+					"prototypename" : "M4L.live.line.dark.H",
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -682,7 +723,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 49.0, 150.0, 75.0 ],
+					"patching_rect" : [ 20.0, 49.0, 151.0, 75.0 ],
 					"text" : "choose an existing preset! there are two banks and 127 preset space for each (including the user presets)"
 				}
 
@@ -1059,7 +1100,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
-					"midpoints" : [ 422.833333333333314, 730.0, 642.0, 730.0, 642.0, 521.0, 664.5, 521.0 ],
+					"midpoints" : [ 349.5, 730.0, 642.0, 730.0, 642.0, 521.0, 664.5, 521.0 ],
 					"source" : [ "obj-62", 2 ]
 				}
 
@@ -1226,22 +1267,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "fs.AMF_c.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/controlers",
-				"patcherrelativepath" : "../controlers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "FS_MicroFreak.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FS_MicroFreak.amxd",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/m4l",
+				"bootpath" : "D:/0_projects/_tools/gitProjects/maxlib-felthiv/m4l",
 				"patcherrelativepath" : "../m4l",
 				"type" : "amxd",
 				"implicit" : 1
@@ -1251,7 +1284,7 @@
 		"styles" : [ 			{
 				"name" : "nihil",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1262,12 +1295,12 @@
 						"autogradient" : 0.0
 					}
 ,
-					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : [ 0 ],
-					"fontface" : [ 1 ],
-					"textcolor_inverse" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"color" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
