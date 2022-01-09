@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, 84.0, 1002.0, 709.0 ],
+		"rect" : [ 38.0, 84.0, 1002.0, 709.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 6,
+					"outlettype" : [ "signal", "bang", "int", "float", "", "list" ],
+					"patching_rect" : [ 277.0, 84.0, 71.5, 22.0 ],
+					"text" : "typeroute~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -213,19 +225,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 2.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
-						"tricolor" : 						{
-							"expression" : ""
-						}
-,
 						"slidercolor" : 						{
 							"expression" : ""
 						}
 ,
-						"tribordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
+						"trioncolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -233,7 +237,15 @@
 							"expression" : ""
 						}
 ,
-						"trioncolor" : 						{
+						"tribordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"tricolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -382,8 +394,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 284.5, 63.0, 258.0, 63.0, 258.0, 21.0, 52.5, 21.0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -449,6 +460,21 @@
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 52.5, 75.0, 52.5, 75.0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 307.5, 117.0, 258.0, 117.0, 258.0, 21.0, 186.5, 21.0 ],
+					"source" : [ "obj-8", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
